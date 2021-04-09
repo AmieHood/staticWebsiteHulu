@@ -1,0 +1,597 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    background-color: black;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    height: 100%;
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+.wrapper {
+    position: fixed;
+    z-index: 50;
+    background-color: #000;
+    opacity: 0;
+}
+
+/* Top of page */
+
+.topThird {
+    position: relative;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 40;
+    margin: 0;
+    width: 100%;
+    background-color: transparent;
+    background-image: url("https://www.hulu.com/static/hitch/s3/attachments/ckbvd0gyz00xg19mlsu9nayv7-homepage-masthead-test-desktop-3200x1320-v4c-6-16-20.jpg");
+}
+
+.topThird h1 {
+    position: relative;
+}
+
+.navigation {
+    left: 0;
+    right: 0;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    z-index: 40;
+    text-transform: uppercase;
+    background-color: transparent;
+    
+}
+
+.navigation h3 {
+    position: fixed;
+    top: 1%;
+    right: 2%;
+    color: white;
+}
+
+.navigation h3:hover {
+    color: lightgray;
+}
+
+#oneMonth {
+    color: #2dbd9d;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 17px;
+}
+
+.huluLogo {
+    max-width: 20%;
+}
+
+.subheading {
+    font-weight: 600;
+    border-top: 8px;
+    font-size: 22px;
+    line-height: 30px;
+    padding: 1em;
+    margin: 0px 299px 0px 299px;
+}
+
+.freeTrial {
+    background-color: white;
+    padding: 12px 23px 12px 23px;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 46px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.freeTrial a {
+        color: black;
+        text-decoration: none;
+}
+
+.premium {
+    padding: 1em;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.conditions {
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 16px;
+    padding: 10px 0 40px 0;
+    opacity: 0.6;
+}
+
+/* middle of page */
+
+.bundleContainer {
+   
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: white;
+    background-image: linear-gradient(135deg, #231437 0%, #2c385e 50%, #336e6b 100%);
+    padding: 25px 40px 25px 40px ;
+    z-index: 1;
+    width: 100%;
+    text-decoration: none;
+}
+
+.disney {
+    max-width: 355px;
+    border-style: none;
+    padding: 0 0 0 0;
+}
+
+.planContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 30px;
+    text-align: left;
+    text-overflow: wrap;
+    min-width: 768px;
+    box-sizing: inherit;
+}
+
+#getHulu {
+    padding: 2 0 2 0;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.details {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-decoration: underline;
+    color: white;
+    opacity: 0.7;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.getBundleContainer {
+    flex-direction: column;
+    padding: 20px 10px 0px 10px;
+}
+
+.getBundle {
+    background-color: transparent;
+    padding: 12px 23px 12px 23px;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.getBundle a {
+    color: white;
+    text-decoration: none;
+}
+
+.conditions a {
+    color: white;
+    text-decoration: underline;
+}
+
+.tvYouLove {
+    background-color: black;
+    margin: 0 0 0 0;
+    text-align: center;
+    padding: 88px 20px 50px 20px;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+
+#included {
+    color: #2dbd9d;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.86px;
+    line-height: 12px;
+    margin-bottom: 16px;
+}
+
+.tvYouLoveTitle {
+    color: white;
+    font-size: 64px;
+    line-height: 70px;
+    font-weight: 800;
+    min-width: 768;
+    margin-bottom: 16px;
+    letter-spacing: -0.5px;
+}
+
+.streamFull {
+    max-width: 680px;
+    margin: 0 auto;
+    padding-top: 16px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+/* .pictureBlocks {
+    background-color: black;
+    padding: 0 20px 60px 20px;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+} */
+
+.pictureContainer {
+    text-align: center;
+    background-color: black;
+    padding: 0 20px 60px 20px;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    /* max-width: 786px; */
+    box-sizing: inherit;
+    min-width: 768px;
+    max-width: 1348px;
+}
+
+
+.pictureBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    color: white;
+    background-color: black;
+}
+
+.libraryItem {
+    /* position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; */
+    width: 100%; 
+    justify-content: space-between;
+    color: white;
+    line-height: 1.15;
+    cursor: pointer;
+    /* padding: 25px 40px 25px 40px; */
+}
+
+.libraryItemOverlay1 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    padding: 25px;
+}
+.libraryItemOverlay2 {
+    position: absolute;
+    top: 0;
+    left: 600px;
+    padding: 25px;
+}
+.libraryItemOverlay3 {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    padding: 25px;
+}
+.libraryItemOverlay4 {
+    position: absolute;
+    top: 0;
+    left: 300px;
+    padding: 25px;
+}
+
+.libraryItemEyebrow {
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 5px;
+}
+
+.libraryItemCategory {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+}
+
+.selectChart {
+    background-color: white;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.selectContainer {
+    background-color: white;
+    color: black;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    position: relative;
+    max-width: 900px;
+    min-width: 1024px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    z-index: 1;
+}
+
+.selectHeader {
+    flex-direction: row;
+    padding-top: 0;
+    display: flex;
+
+}
+
+.selectHeader-1 {
+    display: block;
+    border-bottom: 1px solid #EDEFF2;
+    text-align: left;
+    top: 0;
+
+}
+
+.column1 {
+    width: 30vw;
+    padding: 30px 30px 30px 0px;
+}
+
+.selectYourPlan {
+    text-align: left;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    margin-top: 0;
+    margin: 0;
+    color: black;
+    font-size: 28px;
+    line-height: 31px;
+    margin-bottom: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: block;   
+}
+
+.planDescription {
+    text-align: left;
+    max-width: 30vw;
+    margin: 0;
+
+}
+
+.planHead {
+    text-align: center;
+    display: flex;
+    padding: 0;
+    top: 0;
+}
+
+.planHeadHulu {
+    border-right: none;
+    border-bottom: 1px solid #EDEFF2;
+    padding-top: 32px;
+    padding-bottom: 8px;
+    flex: 1;
+}
+
+.column2 {
+    width: 40vw;
+    display: flex;
+}
+
+.mostPopular {
+    min-height: 27px;
+}
+
+.mostPopular span {
+    border-radius: 15px;
+    font-size: 11px;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0.42px;
+    line-height: 1.5;
+    background-color: #67728A;
+    color: white;
+    padding: 7px 18px 5px 18px;
+}
+
+.adsHulu {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    padding: 8px 0 8px 0;
+}
+
+.freeTrial30 {
+    font-size: 12px;
+    padding-bottom: 4px;
+    color: #888;
+    font-weight: 600;
+    line-height: 13px;
+    text-transform: uppercase;
+}
+
+.tryButtonWrapper {
+    margin: 16px auto 0;
+    width: 100%;
+    max-width: 344px;
+    display: block;
+}
+
+.tryButton {
+    height: 48px;
+    padding: 0 28px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transform: translateY(0);
+    transition: box-shadow 0.2s ease, transform 0.1s ease;
+    min-width: 136px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1px;
+}
+
+.row {
+    border-bottom: 1px solid #EDEFF2;
+}
+
+.planHeadNoAdsHulu {
+    border-right: none;
+    background-color: #F7F8FA;
+    border-bottom: 1px solid #EDEFF2;
+    padding: 32px 0px 8px 0px;
+    border-top: none;
+    color: black;
+    flex: 1;
+}
+
+.noAdsHulu {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    padding: 8px 0px 8px 0px;
+}
+
+.planHeadLiveTV {
+    border-right: none;
+    background-color: white;
+    border-bottom: 1px solid #EDEFF2;
+    padding: 32px 0px 8px 0px;
+    border-top: none;
+    color: black;
+    flex: 1;
+}
+
+.liveTV {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    padding: 8px 0px 8px 0px;
+}
+
+.planFeatures {
+    background-color: white;
+    box-sizing: inherit;
+    color: black;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+    position: relative;
+    max-width: 900px;
+    min-width: 1024px;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    z-index: 1;
+    display: flex;
+}
+
+.planFeatureItem {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px solid #edeff2;
+    box-sizing: inherit;
+}
+
+.planFeatureTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    /* padding: 20px 0px 20px 0px; */
+    min-width: 373px;
+    line-height: 24px;
+    font-size: 16px;
+    justify-content: center;
+}
+
+.featureCheck0 {
+    padding: 20px 0px 20px 0px;
+    flex: 1;
+    text-align: center;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    flex: 1;
+}
+
+.featureBullet {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.featureBulletText {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.featureCheck1 {
+    background-color: #F7F8FA;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    flex: 1;
+}
+
+.featureCheck2 {
+    padding: 20px 0px 20px 0px;
+    flex: 1;
+    text-align: center;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.featureBullet img {
+    height: 16px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.dash {
+    color: #B8BECC;
+}
