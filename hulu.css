@@ -468,6 +468,11 @@ body {
     letter-spacing: 1px;
 }
 
+.tryButton a {
+    text-decoration: none;
+    color: white;
+}
+
 .row {
     border-bottom: 1px solid #EDEFF2;
 }
